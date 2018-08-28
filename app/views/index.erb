@@ -1,0 +1,9 @@
+<h1>Posts</h1>
+
+<% @posts.each do |post| %>
+<li>Post name: <%= post.name %></li>
+    <!-- <form action="/posts/<%= post.id %>" method="post">
+      <input type="hidden" name="_method" value="delete">
+      <input id="delete" type="submit" value="delete">
+    </form> -->
+<% end  %>
