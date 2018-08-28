@@ -1,0 +1,7 @@
+<h1>Posts</h1>
+<%if @posts != nil %>
+  <%@posts.each do |post|%>
+    <h2><%=post.name%></h2>
+    <p><%=post.content%></p>
+  <%end%>
+<%end%>
