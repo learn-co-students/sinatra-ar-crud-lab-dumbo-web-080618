@@ -19,9 +19,7 @@ route and we should see an error telling us that your app is unable to find a
 your `/posts/new` route _before_ your `/posts/:id` route.
 
 ### Database
-
-First, you'll need to create the `posts` table. A blog post should have a name
-and content.
+Beef
 
 Next, set up the corresponding `Post` model. Make sure the class inherits from `ActiveRecord::Base`.
 
