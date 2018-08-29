@@ -1,0 +1,4 @@
+<% @posts.each do |post| %>
+<h3> Name: <a href="/posts/<%= post.id %>"><%= post.name %></a></h3>
+  <p> Content: <%= post.content %> </p><br>
+  <% end %>
